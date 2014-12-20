@@ -1,0 +1,52 @@
+---
+title: "README"
+author: "Malick Lingani"
+date: "Saturday, December 20, 2014"
+output: pdf_document
+---
+#Introduction
+##Origin
+
+The project is inspired by:  [Google Charts demo].  The initial project is host on [github] under [GNU General Public License, version 3]. Thanks to the contributer Joe Cheng.
+
+[Jeo Cheng]'s  Project purpose was to provide Google Charts bindings for Shiny . The binding now works well and I will use it to produce a more reactive chart for insightful visualizations.
+
+##My Contribution
+
+While looking for a topic to build my Data Product I came accross that interesting example. First, I was willing to see how Sabsaharian Africa is doing about Life expectancy and Health Expanditure. I was not even able to see these counties move left nor up. So I decided to allow region selection and then reshope dynamically the chart dimensions. Now we can see Burkina Faso my mother country moves a little. This also allow as to better make some comparision between regions
+
+Fell free to play around it and have fan!  
+
+#How it works?
+
+Enter these commands into your R console or RStudio console:  
+```{r eval=FALSE}  
+    if (!require(devtools))
+    install.packages("devtools")
+    devtools::install_github("jcheng5/googleCharts")
+    install.packages(c("Rcpp", "dplyr"))
+```  
+              
+
+Download ui.R, server.R, global.R and healthexp.Rds. Put all these file in one directory swhitch to that directory as working directory and run the shiny app.
+
+**IMPORTANT !!!:** connect to internet when you run the app to get the styling from google's website. 
+
+#More  
+1. [Check the App on shinyapps.io][Product Deployed on shinyapps.io]  
+2. [A slidify presentation of the App][presentation]  
+3. [Google Charts demo][Google Charts demo]  
+4. [Check the initial source on github][github]  
+5. [Say thanks to Instructors from][Instructors]
+
+
+
+[Product Deployed on shinyapps.io]: https://lingani.shinyapps.io/MyDataProductProject/
+[healthexp.Rds]: https://github.com/jcheng5/googleCharts/blob/master/inst/examples/bubble/healthexp.Rds
+[Google Charts demo]: http://shiny.rstudio.com/gallery/google-charts.html
+[github]: https://github.com/jcheng5/googleCharts
+[GNU General Public License, version 3]: http://cran.r-project.org/web/licenses/GPL-3
+[Joe Cheng]: https://github.com/jcheng5
+[googleVis package]: http://cran.r-project.org/web/packages/googleVis/index.html
+[presentation]: http://lingani.github.io/MyDataProductPresentation
+[Instructors]: https://www.coursera.org/specialization/jhudatascience/1/instructors
