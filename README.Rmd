@@ -13,9 +13,9 @@ The project is inspired by:  [Google Charts demo].  The initial project is host 
 
 ##My Contribution
 
-While looking for a topic to build my Data Product I came accross that interesting example. First, I was willing to see how Sabsaharian Africa is doing about Life expectancy and Health Expanditure. I was not even able to see these counties move left nor up. So I decided to allow region selection and then reshope dynamically the chart dimensions. Now we can see Burkina Faso my mother country moves a little. This also allow as to better make some comparision between regions
+While looking for a topic to build my Data Product I came accross that interesting example. First, I was willing to see how Subsaharian Africa is doing about Life expectancy and Health Expanditure. I was not even able to see these counties move left nor up. So I decided to allow region selection and then reshape dynamically the chart dimensions. Now we can see Burkina Faso my mother country moves a little. This also allows as to better make some comparisons between regions
 
-Fell free to play around it and have fan!  
+Fell free to play around with it and have fan!  
 
 #How it works?
 
